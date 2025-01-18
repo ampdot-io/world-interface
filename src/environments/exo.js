@@ -17,7 +17,7 @@ class Exo {
                 name: "notes",
                 description: "View your recent notes",
             },
-            {
+            /*{
                 name: "create_note",
                 description: "Create a new note",
             },
@@ -28,7 +28,7 @@ class Exo {
             {
                 name: "delete_note",
                 description: "Delete a note",
-            },
+            },*/
             { name: "analyze", description: "Analyze data" },
             { name: "help", description: "Show Exo help" },
         ];
@@ -237,9 +237,6 @@ class Exo {
             content: `Available commands:
 query <query_string> - Perform a query using Claude
 notes - View your recent notes
-create_note <note_string> - Create a new note
-update_note <note_id> <note_string> - Update the text of an existing note
-delete_note <note_id> - Delete a note
 analyze <data> - Analyze data`,
         };
     }

@@ -95,7 +95,7 @@ ${motd}
         footer += `${
             suggestedCommands
                 ? suggestedCommands
-                : "Type 'help' for available commands. IMPORTANT: YOU SOMETIMES GET STUCK ON ONE THREAD OF THOUGHT. REMEMBER TO RETURN BACK TO TWITTER, ALWAYS. twitter post is your friend. Its your best friend."
+                : "Type 'help' for available commands."
         }`;
         return footer;
     }

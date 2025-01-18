@@ -12,13 +12,13 @@ class EnvironmentRegistry {
     constructor() {
         this.environments = {
             wiki: new Wiki(),
-            twitter: new Twitter(),
+            // twitter: new Twitter(),
             exo: new Exo(),
             meme: new MemeMagic(),
             search: new Search(),
-            sydney: new Sydney(),
+            // sydney: new Sydney(),
             web: new WebBrowser(),
-            crappr: new Crappr(),
+            // crappr: new Crappr(),
             trippr: new Trippr(),
         };
     }
